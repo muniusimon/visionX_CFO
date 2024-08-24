@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<header class="jumbotron text-center">
+  <h1 class="display-4">Revolutionize Your Financial Management with VisionX CFO</h1>
+  <p class="lead">Advanced Tools for Multi-Currency, Cryptocurrency, and Comprehensive Financial Oversight</p>
+  <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+  <a href="#" class="btn btn-secondary btn-lg">Request a Demo</a>
+</header>
+
+<!-- Features Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Key Features</h2>
+  <div class="row">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h3 class="card-title">Multi-Currency and Cryptocurrency Transactions</h3>
+                  <p class="card-text">Manage global transactions seamlessly with support for various currencies and digital assets.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h3 class="card-title">Project and Cost Center Accounting</h3>
+                  <p class="card-text">Track expenses and revenue by projects and cost centers for precise financial insights.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Solutions Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Solutions</h2>
+  <div class="row">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h3 class="card-title">Financial Services</h3>
+                  <p class="card-text">Advanced reporting and compliance features.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h3 class="card-title">Retail and E-commerce</h3>
+                  <p class="card-text">Multi-currency support for global transactions.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <!-- Cryptocurrency Prices Section -->
+  <section id="crypto-prices" class="container-fluid">
+    <h2>Cryptocurrency Prices</h2>
+    <!-- Cryptocurrency Price Widget -->
+    <script>
+    !function(){
+        var e=document.getElementsByTagName("script"),
+            t=e[e.length-1],
+            n=document.createElement("script");
+        function r(){
+            var e=crCryptocoinPriceWidget.init({
+                base:"USD,EUR,CNY,GBP",
+                items:"BTC,ETH,LTC,XMR,DASH",
+                backgroundColor:"0000FF",  // Set background color to blue
+                streaming:"1",
+                rounded:"1",
+                boxShadow:"1",
+                border:"1"
+            });
+            t.parentNode.insertBefore(e,t)
+        }
+        n.src="https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CLTC%2CXMR%2CDASH",n.async=!0,
+        n.readyState?n.onreadystatechange=function(){
+            "loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())
+        }:n.onload=function(){r()},
+        t.parentNode.insertBefore(n,null)
+    }();
+    </script>
+    <a href="https://currencyrate.today/" rel="noopener" target="_blank">CurrencyRate.Today</a>
+    <!-- /Cryptocurrency Price Widget -->
+</section>
+ 
+{% endblock content %}

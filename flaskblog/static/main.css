@@ -1,0 +1,196 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .content-section {
+    background: #faf7f7;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+
+div.a {
+    height: auto;
+    border: 1px solid black;
+  }
+  
+ .col-md-3 {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #08233a;
+    border-radius: 10px;
+    height: 500px;
+    
+  }
+
+
+
+
+/*Code from martin*/
+/* Custom Styles */
+header.jumbotron {
+  background-color: #041c36;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+header.jumbotron .btn-primary {
+  background-color: #041d38;
+  border-color: #0056b3;
+}
+
+header.jumbotron .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.card {
+  border: none;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(11, 16, 63, 0.075);
+}
+
+
+/* main muuray*/
+
+/* General Styles */
+
+
+/* Hero Section */
+header {
+    background-color: #f6f8fa; /* Dark blue background for hero section */
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+.display-4 {
+
+    color: white;
+    font-weight: 500;
+
+}
+
+header button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004080; /* Slightly lighter blue for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #0056a0; /* Darker blue on hover */
+}
+
+/* Features and Solutions Sections */
+section {
+    padding: 20px;
+    background-color: #cce0ff; /* Light blue background for sections */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features-container, .solutions-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.feature-item, .solution-item {
+    background-color: #b3cde0; /* Slightly darker blue for feature and solution items */
+    padding: 15px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+/* About Us Section */
+section h3 {
+    margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366; /* Dark blue for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+  
+
+
